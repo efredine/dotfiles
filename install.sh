@@ -2,6 +2,7 @@
 
 # you probably shouldn't try to just run this, but it shows the order in which they should be applied.
 ./brew.install.sh
+brew install --default-names gnu-sed
 ./oh-my-zsh-install.sh
 ./java.install.sh
 ./js.install.sh
